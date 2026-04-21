@@ -14,7 +14,7 @@ def laheta(viesti):
 def aamumuistutus():
     laheta("Punnitukseen boi alle 70kg pitäs olla")
 
-schedule.every().day.at("07:05").do(aamumuistutus)
+schedule.every().day.at("04:05").do(aamumuistutus)
 
 print("Muistutusohjelma käynnissä...")
 while True:
